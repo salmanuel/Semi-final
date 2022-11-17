@@ -3,13 +3,14 @@
 @section('content')
 
 <div class="float-end">
+    
+    <a href="/" class="btn btn-dark "><i class="fa-solid fa-reply"></i></a>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal">
         <i class="fa-solid fa-user-plus"></i>Add
     </button>
 </div>
 
 <h1>Employees</h1>
-<a href="/employees" class="btn btn-danger col-md-4">Back</a>
 
 <table class="table table-bordered table table-hover">
     <thead>
