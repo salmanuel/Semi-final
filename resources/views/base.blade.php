@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Semi-Final Project</title>
 </head>
-<body>
+<body class="bg-secondary">
 
 @include('_navbar')
 

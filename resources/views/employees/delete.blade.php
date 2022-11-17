@@ -10,22 +10,22 @@
                 <div class="infos">
                     <div class="mb-3">
                         {!! Form::label("lname", "Last Name:") !!}
-                        {!! Form::text("lname", null, ['class'=>'form-control']) !!}
+                        {!! Form::text("lname", null, ['class'=>'form-control bg-warning']) !!}
                     </div>
             
                     <div class="mb-3">
                         {!! Form::label("fname", "First Name:") !!}
-                        {!! Form::text("fname", null, ['class'=>'form-control']) !!}
+                        {!! Form::text("fname", null, ['class'=>'form-control bg-warning']) !!}
                     </div>
             
                     <div class="mb-3">
                         {!! Form::label("position", "Position:") !!}
-                        {!! Form::text("position", null, ['class'=>'form-control']) !!}
+                        {!! Form::text("position", null, ['class'=>'form-control bg-warning']) !!}
                     </div>
                     
                     <div class="mb-3">
                         {!! Form::label("salary", "Salary:") !!}
-                        {!! Form::number("salary", null, ['class'=>'form-control']) !!}
+                        {!! Form::number("salary", null, ['class'=>'form-control bg-warning']) !!}
                     </div>
 
                 </div>
@@ -39,7 +39,7 @@
                 {{ csrf_field()}}
                 <div class="form-group float-end">
                     <button href="" class="btn btn-success m-1" type="submit"> <i class="fa fa-check" aria-hidden="true"></i> &nbsp; Yes</button>
-                    <a href="/" class="btn btn-warning m-1"> <i class="fa fa-times" aria-hidden="true"></i> &nbsp; No</a>
+                    <a href="/" class="btn btn-danger m-1"> <i class="fa fa-times" aria-hidden="true"></i> &nbsp; No</a>
                 </div>
 
             </form>
