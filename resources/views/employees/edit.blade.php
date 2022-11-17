@@ -28,7 +28,7 @@
         </div>
 
         <button class="btn btn-primary" type="submit">Save Changes</button>
-
+        <a href="/employees" class="btn btn-danger col-md-4">Cancel</a>
         {!! Form::close() !!}
     </div>
 </div>
